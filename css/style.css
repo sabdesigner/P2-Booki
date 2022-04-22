@@ -172,6 +172,8 @@ a{
     display: flex;
     flex-wrap: wrap;
     align-content:flex-end;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .blue {
     color: #0065FC;
@@ -184,6 +186,8 @@ a{
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 /*Section hebergements*/
 .titre-hebergements {
@@ -218,6 +222,7 @@ a{
     height: 30%;
     margin: 10px 0px;
     flex-basis: 24%;
+    cursor: pointer;
 }
 .card-hebergements img {
     width: 100%;
@@ -271,6 +276,7 @@ a{
     min-height: 50px;
     margin-bottom :  15px ;
     flex-basis: 50%;
+    cursor: pointer;
 }
 .card-populaire img {
     width: 40% ;
@@ -316,6 +322,7 @@ a{
     box-shadow:  0  0  16px  gray ;
     margin :  1% ;
     width: 25%;
+    cursor: pointer;
 }
 .masonry-with-flex-text{
     font-size :  14px ;
@@ -435,6 +442,7 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
+    cursor: pointer;
 }
 }
 /* Pour tablette: */
@@ -448,6 +456,8 @@ nav a:hover {
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 /*Section hebergements*/
 .hebergements {
@@ -457,7 +467,7 @@ nav a:hover {
     background-color: #F2F2F2;
     border-radius: 20px;
     width: 98%;
-    margin-bottom: 10px;
+    margin-right: 0;
 } 
 /*populaires*/
 .titre-populaire { 
@@ -477,6 +487,7 @@ nav a:hover {
     justify-content:left;
     width: 100%;
     max-height: 180px;
+    cursor: pointer;
 }
 .card-populaire img {
     width: 38% ;
@@ -508,6 +519,7 @@ nav a:hover {
     width: 50%;
     margin-bottom: 20px;
     margin-left: 20px;
+    cursor: pointer;
 }
 .masonry-with-flex div:nth-child(1) {
     align-self:center;
@@ -615,6 +627,7 @@ nav a:hover {
 }
 .card-hebergements  {
     margin-left: 0%;
+    cursor: pointer;
 }
 .card-hebergements img {
     width: 100%;
@@ -639,6 +652,7 @@ nav a:hover {
     min-width: 60%;
     max-height: 180px;
     width: 100%;
+    cursor: pointer;
 }
 .card-populaire img {
     width: 40% ;
@@ -677,6 +691,7 @@ nav a:hover {
     flex-basis: 95%;
     width: 100%;
     margin-bottom: 5%;
+    cursor: pointer;
 }
 .masonry-with-flex div:nth-child(1) {
     height: 250px;
