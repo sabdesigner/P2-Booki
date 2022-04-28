@@ -301,7 +301,7 @@ a{
   display: flex;
   justify-content:space-between;
   height : 380px;
-  width: calc(100%-70px);
+  width: calc(100% - 70px);
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -642,7 +642,7 @@ nav a:hover {
     flex-wrap: wrap;
     flex-direction: column;
     height : auto;
-    width: calc(100%-40px);
+    width: calc(100% - 40px);
 }
 .col1,
 .col2 {
