@@ -301,7 +301,7 @@ a{
   display: flex;
   justify-content:space-between;
   height : 380px;
-  width: calc(100% - 70px);
+  width: calc(100% - 40px);
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -425,7 +425,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 100%;
+    width: calc(100% - 20px);
 }
 /*Section hebergements*/
 .hebergements {
