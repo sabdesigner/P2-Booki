@@ -589,6 +589,8 @@ nav a:hover {
     display: flex;
     flex-direction:column-reverse;
     flex-wrap: wrap;
+    margin-right:20px;
+    margin-left: 20px;
 }
 .sous-titre-filtres {
     width: 100%;
