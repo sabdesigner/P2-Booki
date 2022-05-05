@@ -99,10 +99,11 @@ h2 {
     padding: 0px 0px 0px 0px;
 }
 .sous-titre-filtres {    
-    font-weight: 600;
+    font-weight: 700;
     font-family:'Raleway', sans-serif;
     font-size: 16px;
     color: black;
+    padding-top: 10px;
   }
 .bloc_filtres{
     display: flex;
@@ -184,6 +185,7 @@ h2 {
     font-size: 14px;
     padding:  0px 0  10px;
     width: 100%;
+    font-weight: 700;
 }
 .hebergements {
     display: flex;
