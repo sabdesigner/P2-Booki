@@ -571,6 +571,7 @@ nav a:hover {
 .bouton {
     height: 50px;
     width: 50px;
+    border-radius: 10px;
 }
 .barre_recherche {
     width: 100%;
