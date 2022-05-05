@@ -3,7 +3,6 @@
 }
 body{
     font-family: "Raleway", sans-serif;
-    margin: 0;   
 }
 a:visited{
     color: black;
@@ -11,12 +10,19 @@ a:visited{
 a{
     text-decoration: none;
 }
+h1 {
+    font-size: 20px;
+}
+h2 {
+    font-size: 18px;
+}
 /*header*/
 /*nav*/
+
 .nav-main{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content:space-between;
+    align-items:center;
 }
 .header_nav_logobooki{
     flex-basis: 40%;
@@ -42,24 +48,10 @@ a{
 .formulaire_recherche { 
     padding: 0px 0px 0px 20px;
 }
-.formulaire_recherche h1{ 
-    margin-bottom: 0;
-}
-.formulaire_recherche p{
-    margin-top: 10px;
-}
 .formulaire { 
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.titre {    
-    font-size: 20px;  
-    font-weight: bolder;
-}
-.sous-titre {    
-    font-size: 16px;
-    font-weight: 400;    
 }
 .barre_recherche {    
     width: 380px;
@@ -67,10 +59,10 @@ a{
 }
 .recherche {    
     height: 50px;
-    width: 200px;
+    width: 100%;
     font-size: 16px;
+    font-weight: 600;
     color: black;
-    font-weight: bold;
     padding: 25px;
     border: 2px solid #F2F2F2;
     border-left: none;
@@ -86,7 +78,6 @@ a{
 .bouton {
     background: #0065FC;
     border:2px solid #0065FC;
-    font-weight: bolder;
     font-size: 16px;
     color: white;
     cursor: pointer;
@@ -98,13 +89,14 @@ a{
 }
 .recherche_bouton-texte {
     display: unset;
+    font-weight: 600;
 }
 .recherche_bouton-logo {
     display: none;
 }
 /*Section filtres*/
 .filtres_recherche{  
-    padding: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 0px;
 }
 .sous-titre-filtres {    
     font-weight: 600;
@@ -124,6 +116,7 @@ a{
     margin-right: 10px; 
     margin-top: 1%; 
     margin-inline: 1%;  
+    font-weight: 600;
     justify-content: space-between;
     font-size: 16px;
     border: 2px solid #F2F2F2;
@@ -138,7 +131,6 @@ a{
 .bloc_filtres_menu a{
     text-decoration: none;
     color: black;
-    font-weight: bold;
     margin: 10px;    
 }
 .bloc_filtres_menu i{
@@ -153,6 +145,7 @@ a{
 .bloc_infos{
     display: flex;
     align-items: center;
+    padding: 20px 0px 20px 0px;
 }
 .bloc_infos i{
     color: #0065fc;
@@ -184,15 +177,12 @@ a{
 }
 /*Section hebergements*/
 .titre-hebergements {
-    font-size: 20px;
-    padding:  20px 0  0px;
-    font-weight: bold;
+    padding:  20px 0  0  0;
     width: 100%;
 }
 .sous-titre-hebergements{
     font-size: 14px;
-    padding:  20px 0  10px;
-    font-weight: bold;
+    padding:  0px 0  10px;
     width: 100%;
 }
 .hebergements {
@@ -240,9 +230,8 @@ a{
 }
 /*populaire*/
 .titre-populaire { 
-    font-size: 20px;
+    font-size: 18px;
     padding:  20px 0  0  0;
-    font-weight: bold;
     display: flex;
     justify-content: space-between;
 }
@@ -306,19 +295,18 @@ a{
   margin-right: 20px;
 }
 .titre-activites-marseille {    
-    font-size :  18px ;
     padding: 0px 0px 0px 20px ;
     width: 100%;
-    font-weight: bold;
+}
+.titre-activites-marseille h3 { 
+font-size :  18px ;
 }
 .col1,
 .col2 {
-    flex-basis: 25%; 
+    flex-basis: 46%; 
     display: flex;
     flex-wrap: wrap;
-}
-.col2 {
-    margin: 0 10px;
+    margin: 1%;
 }
 .col2:nth-child(4) {
     margin-right: 0;
@@ -334,24 +322,27 @@ a{
 /* variantes pour col 2 et 4 (exemple)*/
 .bloc60 {
     width: 100%;
-    height: 59%; 
+    height: 55%; 
     border-radius: 20px ;
-    margin-bottom: 2%;
     box-shadow:  0  0  16px  gray ;
+    align-self: baseline;
 }
 .bloc40 {
     width: 100%;
-    height: 39%; 
+    height: 35%; 
     border-radius: 20px ;
-    margin-bottom: 2%;
     box-shadow:  0  0  16px  gray ;
+    align-self: flex-end;
 }
 .bloc50 {
     width: 100%;
-    height: 49%; 
+    height: 47%; 
+    margin-bottom: 8%;
     border-radius: 20px ;
-    margin-bottom: 2%;
     box-shadow:  0  0  16px  gray ;
+    align-self:center;
+    justify-content: space-between;
+
 }
 /* intérieur des blocs */
 .bloc img,
@@ -369,8 +360,9 @@ a{
 .bloc60 .text {
     width: 100%;
     height: 50px;
-    padding-left: 20px;
+    padding-left: 12px;
     font-size :  14px ;
+    font-weight: 600;
 }
 /* Effet survol des blocs */
 .bloc :hover, 
@@ -533,6 +525,7 @@ nav a:hover {
 .nav-main {
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 .nav-main ul {
     width: 100%;
@@ -562,9 +555,10 @@ nav a:hover {
     width: 100%;
     border-radius: 10px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content:center;
 }
+
 .formulaire_recherche {
     padding: 0px 20px 0px 20px;
 }
@@ -677,16 +671,19 @@ nav a:hover {
 }
 /* variantes pour col 2 et 4 (exemple)*/
 .bloc60 {
-    width: 100%;
+    width: 98%;
     height: 250px;
+    margin-bottom: 10px;
 }
 .bloc50 {
-    width: 97%;
+    width: 93%;
     height: 250px;
+    margin-bottom: 10px;
 }
 .bloc40{
-    width: 100%;
-    height: 250px;
+    width: 98%;
+    height: 250px;    
+    margin-bottom: 10px;
 }
 /* footer */
 footer{
