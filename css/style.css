@@ -25,7 +25,6 @@ h3 {
 .nav-main{
     display: flex;
     justify-content:space-between;
-    align-items:center;
 }
 .header_nav_logobooki{
     flex-basis: 40%;
@@ -232,6 +231,7 @@ h3 {
 }
 .text-description h3 {
     margin: 0px 0 5px 0;
+    font-weight: 700;
 }
 /*populaire*/
 .titre-populaire { 
@@ -286,6 +286,7 @@ h3 {
 .card-populaire h3 {
     margin: 0px 0 5px 0;
     width: 100%;
+    font-weight: 700;
 } 
 .card-populaire p {
     width: 100%;
@@ -305,6 +306,7 @@ h3 {
 }
 .titre-activites-marseille h3 { 
 font-size :  18px ;
+font-weight: 700;
 }
 .col1,
 .col2 {
@@ -387,12 +389,15 @@ footer{
 }
 .footer_à_propos{
     width: 30%;
+    font-weight: 700;
 }
 .footer_nos_hébergements{
     width: 30%;
+    font-weight: 700;
 }
 .footer_assistance{
     width: 30%;
+    font-weight: 700;
 }
  footer p:hover {
     color: #0065fc;
