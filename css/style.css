@@ -582,8 +582,8 @@ nav a:hover {
     padding: 0px 20px 0px 20px;
 }
 .filtres_recherche {
-    padding: 0px 20px 20px 20px;
-}
+    padding-right: 20%;
+    }
 /*Section populaires et hebergements */
 .hebergements-populaire{
     display: flex;
