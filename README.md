@@ -6,3 +6,6 @@ Objectif : Création d'un prototype du site de l'entreprise Booki, dans le cadre
 Comment : Intégrer des maquettes en HTML / CSS d'un design fait par Loïc
 Pourquoi : Le prototype servira de base de code pour le reste du développement du projet
 Pour qui : Ce projet est réalisé à la demande de Sarah, la CTO de Booki 
+
+## Slides
+[Présentation](https://docs.google.com/presentation/d/1O-MmySZopKyai-LX8Y331bZx8-Qlbi1LlULS-UHR7Wc/edit)
